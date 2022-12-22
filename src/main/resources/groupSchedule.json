@@ -1,0 +1,2705 @@
+[
+  {
+    "fullNumber": "0301",
+    "id": 2573,
+    "number": "0301",
+    "studentCount": 0,
+    "course": 3,
+    "semester": 6,
+    "index": null,
+    "studyingType": "оч",
+    "educationLevel": "бак",
+    "alienId": 20980,
+    "studyYears": "2022-2023",
+    "semesterSeasons": [
+      {
+        "id": 10,
+        "season": "autumn",
+        "year": 2022,
+        "startDate": "2022-08-31T00:00:00.000Z",
+        "endDate": "2023-02-05T00:00:00.000Z",
+        "GroupSemesterSeason": {
+          "semesterStart": "2022-09-01T00:00:00.000Z",
+          "semesterEnd": "2022-12-30T00:00:00.000Z",
+          "examStart": "2023-01-09T00:00:00.000Z",
+          "examEnd": "2023-01-28T00:00:00.000Z",
+          "createdAt": "2022-05-13T11:04:51.449Z",
+          "updatedAt": "2022-11-21T12:49:11.232Z",
+          "deletedAt": null,
+          "groupId": 2573,
+          "semesterSeasonId": 10
+        }
+      }
+    ],
+    "groupSets": [
+      {
+        "id": 335,
+        "title": "ФКТИ_3_1МОЭВМ+САПР+ВТ",
+        "GroupInSet": {
+          "index": 5
+        }
+      }
+    ],
+    "scheduleObjects": [
+      {
+        "groupId": 2573,
+        "id": 5228976,
+        "lessonId": 5246155,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.В.05",
+        "url": null,
+        "lesson": {
+          "id": 5246155,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5278184,
+            "type": "schedule",
+            "description": "\"Программирование на языке Kotlin\" (Пр), группа 0301",
+            "updatedAt": "2022-12-09T09:45:25.414Z",
+            "auditoriumNumber": "1156",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5228976,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5286571,
+              "startTime": 101,
+              "endTime": 1101,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "FRI",
+              "week": "1"
+            },
+            "auditorium": {
+              "displayName": "1156",
+              "number": "1156",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 29543,
+            "title": "Программирование на языке Kotlin",
+            "englishTitle": null,
+            "shortTitle": "Пр_на_Kotlin",
+            "subjectType": "Пр",
+            "controlType": null,
+            "semester": 5,
+            "alienId": 3904,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 24,
+              "title": "каф.САПР",
+              "longTitle": "Кафедра систем автоматизированного проектирования",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Кулагин М.В.",
+            "isTeacher": true,
+            "id": 2627,
+            "surname": "Кулагин",
+            "name": "Максим",
+            "midname": "Вадимович",
+            "phone": "",
+            "birthday": "1997-12-27",
+            "roles": [
+              "teacher"
+            ],
+            "workDepartments": null,
+            "position": "Ассистент (каф.САПР)",
+            "degree": null,
+            "rank": null,
+            "email": null,
+            "alienId": 2865,
+            "groupId": null,
+            "personalNumber": "00204246",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5231269,
+        "lessonId": 5248448,
+        "comment": "",
+        "form": "standard",
+        "block": "[Нет]",
+        "url": null,
+        "lesson": {
+          "id": 5248448,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5280477,
+            "type": "schedule",
+            "description": "\"Военно-морская подготовка\" (Лек), группа 0301",
+            "updatedAt": "2022-12-09T09:46:05.594Z",
+            "auditoriumNumber": null,
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5231269,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5288864,
+              "startTime": 101,
+              "endTime": 1104,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "TUE",
+              "week": "1"
+            },
+            "auditorium": null
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 21240,
+            "title": "Военно-морская подготовка",
+            "englishTitle": null,
+            "shortTitle": "ВМП",
+            "subjectType": "Лек",
+            "controlType": null,
+            "semester": 5,
+            "alienId": 0,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 65,
+              "title": "Военный учебный центр",
+              "longTitle": null,
+              "type": "military"
+            }
+          },
+          "teacher": null,
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5231270,
+        "lessonId": 5248449,
+        "comment": "",
+        "form": "standard",
+        "block": "[Нет]",
+        "url": null,
+        "lesson": {
+          "id": 5248449,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5280478,
+            "type": "schedule",
+            "description": "\"Военно-морская подготовка\" (Лек), группа 0301",
+            "updatedAt": "2022-12-09T09:46:05.606Z",
+            "auditoriumNumber": null,
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5231270,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5288865,
+              "startTime": 101,
+              "endTime": 1104,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "TUE",
+              "week": "2"
+            },
+            "auditorium": null
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 21240,
+            "title": "Военно-морская подготовка",
+            "englishTitle": null,
+            "shortTitle": "ВМП",
+            "subjectType": "Лек",
+            "controlType": null,
+            "semester": 5,
+            "alienId": 0,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 65,
+              "title": "Военный учебный центр",
+              "longTitle": null,
+              "type": "military"
+            }
+          },
+          "teacher": null,
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5231922,
+        "lessonId": 5249101,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.В.05",
+        "url": null,
+        "lesson": {
+          "id": 5249101,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5281130,
+            "type": "schedule",
+            "description": "\"Программирование на языке Kotlin\" (Лек), группа 0301",
+            "updatedAt": "2022-12-09T09:46:15.361Z",
+            "auditoriumNumber": "5412",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5231922,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5289517,
+              "startTime": 102,
+              "endTime": 1102,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "FRI",
+              "week": "1"
+            },
+            "auditorium": {
+              "displayName": "5412",
+              "number": "5412",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 29542,
+            "title": "Программирование на языке Kotlin",
+            "englishTitle": null,
+            "shortTitle": "Пр_на_Kotlin",
+            "subjectType": "Лек",
+            "controlType": "ЗчО",
+            "semester": 5,
+            "alienId": 3904,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 24,
+              "title": "каф.САПР",
+              "longTitle": "Кафедра систем автоматизированного проектирования",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Кузьмин С.А.",
+            "isTeacher": true,
+            "id": 481,
+            "surname": "Кузьмин",
+            "name": "Сергей",
+            "midname": "Алексеевич",
+            "phone": null,
+            "birthday": "1984-08-05",
+            "roles": [
+              "worker",
+              "teacher"
+            ],
+            "workDepartments": [
+              "Кафедра систем автоматизированного проектирования (старший преподаватель кандидат наук)"
+            ],
+            "position": "Старший преподаватель (каф.САПР)",
+            "degree": "Кандидат наук",
+            "rank": null,
+            "email": "sakuzmin@etu.ru",
+            "alienId": 928,
+            "groupId": null,
+            "personalNumber": "00020294",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5231934,
+        "lessonId": 5249113,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.В.05",
+        "url": null,
+        "lesson": {
+          "id": 5249113,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5281142,
+            "type": "schedule",
+            "description": "\"Программирование на языке Kotlin\" (Лек), группа 0301",
+            "updatedAt": "2022-12-09T09:46:15.838Z",
+            "auditoriumNumber": "5412",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5231934,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5289529,
+              "startTime": 102,
+              "endTime": 1102,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "FRI",
+              "week": "2"
+            },
+            "auditorium": {
+              "displayName": "5412",
+              "number": "5412",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 29542,
+            "title": "Программирование на языке Kotlin",
+            "englishTitle": null,
+            "shortTitle": "Пр_на_Kotlin",
+            "subjectType": "Лек",
+            "controlType": "ЗчО",
+            "semester": 5,
+            "alienId": 3904,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 24,
+              "title": "каф.САПР",
+              "longTitle": "Кафедра систем автоматизированного проектирования",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Кузьмин С.А.",
+            "isTeacher": true,
+            "id": 481,
+            "surname": "Кузьмин",
+            "name": "Сергей",
+            "midname": "Алексеевич",
+            "phone": null,
+            "birthday": "1984-08-05",
+            "roles": [
+              "worker",
+              "teacher"
+            ],
+            "workDepartments": [
+              "Кафедра систем автоматизированного проектирования (старший преподаватель кандидат наук)"
+            ],
+            "position": "Старший преподаватель (каф.САПР)",
+            "degree": "Кандидат наук",
+            "rank": null,
+            "email": "sakuzmin@etu.ru",
+            "alienId": 928,
+            "groupId": null,
+            "personalNumber": "00020294",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5231935,
+        "lessonId": 5249114,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.В.04",
+        "url": null,
+        "lesson": {
+          "id": 5249114,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5281143,
+            "type": "schedule",
+            "description": "\"Геометрическое моделирование\" (Лек), группа 0301",
+            "updatedAt": "2022-12-09T09:46:15.850Z",
+            "auditoriumNumber": "4408",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5231935,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5289530,
+              "startTime": 102,
+              "endTime": 1102,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "THU",
+              "week": "1"
+            },
+            "auditorium": {
+              "displayName": "4408",
+              "number": "4408",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 29550,
+            "title": "Геометрическое моделирование",
+            "englishTitle": null,
+            "shortTitle": "ГеомМод",
+            "subjectType": "Лек",
+            "controlType": "Экз",
+            "semester": 5,
+            "alienId": 170,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 24,
+              "title": "каф.САПР",
+              "longTitle": "Кафедра систем автоматизированного проектирования",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Матвеева И.В.",
+            "isTeacher": true,
+            "id": 500,
+            "surname": "Матвеева",
+            "name": "Ирина",
+            "midname": "Витальевна",
+            "phone": null,
+            "birthday": "1962-07-12",
+            "roles": [
+              "worker",
+              "teacher"
+            ],
+            "workDepartments": [
+              "Кафедра систем автоматизированного проектирования (доцент кандидат наук)",
+              "Центр \"Абитуриент\" (заместитель руководителя центра)"
+            ],
+            "position": "Доцент (каф.САПР)",
+            "degree": "Кандидат наук",
+            "rank": null,
+            "email": "ivmatveeva@etu.ru",
+            "alienId": 931,
+            "groupId": null,
+            "personalNumber": "90009579",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5231936,
+        "lessonId": 5249115,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.В.04",
+        "url": null,
+        "lesson": {
+          "id": 5249115,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5281144,
+            "type": "schedule",
+            "description": "\"Геометрическое моделирование\" (Лек), группа 0301",
+            "updatedAt": "2022-12-09T09:46:15.864Z",
+            "auditoriumNumber": "4408",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5231936,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5289531,
+              "startTime": 102,
+              "endTime": 1102,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "THU",
+              "week": "2"
+            },
+            "auditorium": {
+              "displayName": "4408",
+              "number": "4408",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 29550,
+            "title": "Геометрическое моделирование",
+            "englishTitle": null,
+            "shortTitle": "ГеомМод",
+            "subjectType": "Лек",
+            "controlType": "Экз",
+            "semester": 5,
+            "alienId": 170,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 24,
+              "title": "каф.САПР",
+              "longTitle": "Кафедра систем автоматизированного проектирования",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Матвеева И.В.",
+            "isTeacher": true,
+            "id": 500,
+            "surname": "Матвеева",
+            "name": "Ирина",
+            "midname": "Витальевна",
+            "phone": null,
+            "birthday": "1962-07-12",
+            "roles": [
+              "worker",
+              "teacher"
+            ],
+            "workDepartments": [
+              "Кафедра систем автоматизированного проектирования (доцент кандидат наук)",
+              "Центр \"Абитуриент\" (заместитель руководителя центра)"
+            ],
+            "position": "Доцент (каф.САПР)",
+            "degree": "Кандидат наук",
+            "rank": null,
+            "email": "ivmatveeva@etu.ru",
+            "alienId": 931,
+            "groupId": null,
+            "personalNumber": "90009579",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235350,
+        "lessonId": 5252529,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.В.07",
+        "url": null,
+        "lesson": {
+          "id": 5252529,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284558,
+            "type": "schedule",
+            "description": "\"Метрология\" (Лек), группа 0301",
+            "updatedAt": "2022-12-09T09:47:16.103Z",
+            "auditoriumNumber": "1158",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235350,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5292945,
+              "startTime": 104,
+              "endTime": 1104,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "FRI",
+              "week": "1"
+            },
+            "auditorium": {
+              "displayName": "1158",
+              "number": "1158",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 27932,
+            "title": "Метрология",
+            "englishTitle": null,
+            "shortTitle": "Метрология",
+            "subjectType": "Лек",
+            "controlType": "Экз",
+            "semester": 5,
+            "alienId": 616,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 10,
+              "title": "каф.ИИСТ",
+              "longTitle": "Кафедра информационно-измерительных систем и технологий",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Антонюк Е.М.",
+            "isTeacher": true,
+            "id": 172,
+            "surname": "Антонюк",
+            "name": "Евгений",
+            "midname": "Михайлович",
+            "phone": null,
+            "birthday": "1936-06-22",
+            "roles": [
+              "worker",
+              "teacher"
+            ],
+            "workDepartments": [
+              "Кафедра информационно-измерительных систем и технологий (профессор доктор наук)"
+            ],
+            "position": "Профессор (каф.ИИСТ)",
+            "degree": "Доктор наук",
+            "rank": "Профессор",
+            "email": "emantoniuk@etu.ru",
+            "alienId": 522,
+            "groupId": null,
+            "personalNumber": "90001049",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235351,
+        "lessonId": 5252530,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.В.07",
+        "url": null,
+        "lesson": {
+          "id": 5252530,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284559,
+            "type": "schedule",
+            "description": "\"Метрология\" (Лек), группа 0301",
+            "updatedAt": "2022-12-09T09:47:16.120Z",
+            "auditoriumNumber": "1158",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235351,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5292946,
+              "startTime": 104,
+              "endTime": 1104,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "FRI",
+              "week": "2"
+            },
+            "auditorium": {
+              "displayName": "1158",
+              "number": "1158",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 27932,
+            "title": "Метрология",
+            "englishTitle": null,
+            "shortTitle": "Метрология",
+            "subjectType": "Лек",
+            "controlType": "Экз",
+            "semester": 5,
+            "alienId": 616,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 10,
+              "title": "каф.ИИСТ",
+              "longTitle": "Кафедра информационно-измерительных систем и технологий",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Антонюк Е.М.",
+            "isTeacher": true,
+            "id": 172,
+            "surname": "Антонюк",
+            "name": "Евгений",
+            "midname": "Михайлович",
+            "phone": null,
+            "birthday": "1936-06-22",
+            "roles": [
+              "worker",
+              "teacher"
+            ],
+            "workDepartments": [
+              "Кафедра информационно-измерительных систем и технологий (профессор доктор наук)"
+            ],
+            "position": "Профессор (каф.ИИСТ)",
+            "degree": "Доктор наук",
+            "rank": "Профессор",
+            "email": "emantoniuk@etu.ru",
+            "alienId": 522,
+            "groupId": null,
+            "personalNumber": "90001049",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235630,
+        "lessonId": 5252809,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.О.19",
+        "url": null,
+        "lesson": {
+          "id": 5252809,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284838,
+            "type": "schedule",
+            "description": "\"Операционные системы\" (Лаб), группа 0301",
+            "updatedAt": "2022-12-09T09:47:20.598Z",
+            "auditoriumNumber": "1156",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235630,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5293225,
+              "startTime": 104,
+              "endTime": 1104,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "THU",
+              "week": "1"
+            },
+            "auditorium": {
+              "displayName": "1156",
+              "number": "1156",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 29541,
+            "title": "Операционные системы",
+            "englishTitle": null,
+            "shortTitle": "ОС",
+            "subjectType": "Лаб",
+            "controlType": null,
+            "semester": 5,
+            "alienId": 763,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 24,
+              "title": "каф.САПР",
+              "longTitle": "Кафедра систем автоматизированного проектирования",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Горячев А.В.",
+            "isTeacher": true,
+            "id": 416,
+            "surname": "Горячев",
+            "name": "Александр",
+            "midname": "Вадимович",
+            "phone": "+79219394016",
+            "birthday": "1959-08-05",
+            "roles": [
+              "worker",
+              "teacher"
+            ],
+            "workDepartments": [
+              "Кафедра информационной безопасности (доцент кандидат наук)",
+              "Кафедра систем автоматизированного проектирования (доцент кандидат наук)"
+            ],
+            "position": "Доцент (каф.ИБ), Доцент (каф.САПР)",
+            "degree": "Кандидат наук",
+            "rank": "Доцент",
+            "email": "avgoriachev@etu.ru",
+            "alienId": 921,
+            "groupId": null,
+            "personalNumber": "90010890",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235631,
+        "lessonId": 5252810,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.О.19",
+        "url": null,
+        "lesson": {
+          "id": 5252810,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284839,
+            "type": "schedule",
+            "description": "\"Операционные системы\" (Лаб), группа 0301",
+            "updatedAt": "2022-12-09T09:47:20.611Z",
+            "auditoriumNumber": "1156",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235631,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5293226,
+              "startTime": 104,
+              "endTime": 1104,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "THU",
+              "week": "2"
+            },
+            "auditorium": {
+              "displayName": "1156",
+              "number": "1156",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 29541,
+            "title": "Операционные системы",
+            "englishTitle": null,
+            "shortTitle": "ОС",
+            "subjectType": "Лаб",
+            "controlType": null,
+            "semester": 5,
+            "alienId": 763,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 24,
+              "title": "каф.САПР",
+              "longTitle": "Кафедра систем автоматизированного проектирования",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Горячев А.В.",
+            "isTeacher": true,
+            "id": 416,
+            "surname": "Горячев",
+            "name": "Александр",
+            "midname": "Вадимович",
+            "phone": "+79219394016",
+            "birthday": "1959-08-05",
+            "roles": [
+              "worker",
+              "teacher"
+            ],
+            "workDepartments": [
+              "Кафедра информационной безопасности (доцент кандидат наук)",
+              "Кафедра систем автоматизированного проектирования (доцент кандидат наук)"
+            ],
+            "position": "Доцент (каф.ИБ), Доцент (каф.САПР)",
+            "degree": "Кандидат наук",
+            "rank": "Доцент",
+            "email": "avgoriachev@etu.ru",
+            "alienId": 921,
+            "groupId": null,
+            "personalNumber": "90010890",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235635,
+        "lessonId": 5252814,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.О.19",
+        "url": null,
+        "lesson": {
+          "id": 5252814,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284843,
+            "type": "schedule",
+            "description": "\"Операционные системы\" (Лек), группа 0301",
+            "updatedAt": "2022-12-09T09:47:20.667Z",
+            "auditoriumNumber": "5221",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235635,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5293230,
+              "startTime": 102,
+              "endTime": 1102,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "WED",
+              "week": "1"
+            },
+            "auditorium": {
+              "displayName": "5221",
+              "number": "5221",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 29540,
+            "title": "Операционные системы",
+            "englishTitle": null,
+            "shortTitle": "ОС",
+            "subjectType": "Лек",
+            "controlType": "Экз",
+            "semester": 5,
+            "alienId": 763,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 24,
+              "title": "каф.САПР",
+              "longTitle": "Кафедра систем автоматизированного проектирования",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Горячев А.В.",
+            "isTeacher": true,
+            "id": 416,
+            "surname": "Горячев",
+            "name": "Александр",
+            "midname": "Вадимович",
+            "phone": "+79219394016",
+            "birthday": "1959-08-05",
+            "roles": [
+              "worker",
+              "teacher"
+            ],
+            "workDepartments": [
+              "Кафедра информационной безопасности (доцент кандидат наук)",
+              "Кафедра систем автоматизированного проектирования (доцент кандидат наук)"
+            ],
+            "position": "Доцент (каф.ИБ), Доцент (каф.САПР)",
+            "degree": "Кандидат наук",
+            "rank": "Доцент",
+            "email": "avgoriachev@etu.ru",
+            "alienId": 921,
+            "groupId": null,
+            "personalNumber": "90010890",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235636,
+        "lessonId": 5252815,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.О.19",
+        "url": null,
+        "lesson": {
+          "id": 5252815,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284844,
+            "type": "schedule",
+            "description": "\"Операционные системы\" (Лек), группа 0301",
+            "updatedAt": "2022-12-09T09:47:20.679Z",
+            "auditoriumNumber": "5221",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235636,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5293231,
+              "startTime": 102,
+              "endTime": 1102,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "WED",
+              "week": "2"
+            },
+            "auditorium": {
+              "displayName": "5221",
+              "number": "5221",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 29540,
+            "title": "Операционные системы",
+            "englishTitle": null,
+            "shortTitle": "ОС",
+            "subjectType": "Лек",
+            "controlType": "Экз",
+            "semester": 5,
+            "alienId": 763,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 24,
+              "title": "каф.САПР",
+              "longTitle": "Кафедра систем автоматизированного проектирования",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Горячев А.В.",
+            "isTeacher": true,
+            "id": 416,
+            "surname": "Горячев",
+            "name": "Александр",
+            "midname": "Вадимович",
+            "phone": "+79219394016",
+            "birthday": "1959-08-05",
+            "roles": [
+              "worker",
+              "teacher"
+            ],
+            "workDepartments": [
+              "Кафедра информационной безопасности (доцент кандидат наук)",
+              "Кафедра систем автоматизированного проектирования (доцент кандидат наук)"
+            ],
+            "position": "Доцент (каф.ИБ), Доцент (каф.САПР)",
+            "degree": "Кандидат наук",
+            "rank": "Доцент",
+            "email": "avgoriachev@etu.ru",
+            "alienId": 921,
+            "groupId": null,
+            "personalNumber": "90010890",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235640,
+        "lessonId": 5252819,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.В.04",
+        "url": null,
+        "lesson": {
+          "id": 5252819,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284848,
+            "type": "schedule",
+            "description": "\"Геометрическое моделирование\" (Пр), группа 0301",
+            "updatedAt": "2022-12-09T09:47:20.742Z",
+            "auditoriumNumber": "1155",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235640,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5293235,
+              "startTime": 103,
+              "endTime": 1103,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "WED",
+              "week": "1"
+            },
+            "auditorium": {
+              "displayName": "1155",
+              "number": "1155",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 29551,
+            "title": "Геометрическое моделирование",
+            "englishTitle": null,
+            "shortTitle": "ГеомМод",
+            "subjectType": "Пр",
+            "controlType": null,
+            "semester": 5,
+            "alienId": 170,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 24,
+              "title": "каф.САПР",
+              "longTitle": "Кафедра систем автоматизированного проектирования",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Матвеева И.В.",
+            "isTeacher": true,
+            "id": 500,
+            "surname": "Матвеева",
+            "name": "Ирина",
+            "midname": "Витальевна",
+            "phone": null,
+            "birthday": "1962-07-12",
+            "roles": [
+              "worker",
+              "teacher"
+            ],
+            "workDepartments": [
+              "Кафедра систем автоматизированного проектирования (доцент кандидат наук)",
+              "Центр \"Абитуриент\" (заместитель руководителя центра)"
+            ],
+            "position": "Доцент (каф.САПР)",
+            "degree": "Кандидат наук",
+            "rank": null,
+            "email": "ivmatveeva@etu.ru",
+            "alienId": 931,
+            "groupId": null,
+            "personalNumber": "90009579",
+            "isEmailNotif": true
+          },
+          "secondTeacher": {
+            "initials": "Островский В.Ю.",
+            "isTeacher": true,
+            "id": 524,
+            "surname": "Островский",
+            "name": "Валерий",
+            "midname": "Юрьевич",
+            "phone": null,
+            "birthday": "1993-06-29",
+            "roles": [
+              "teacher"
+            ],
+            "workDepartments": null,
+            "position": "Ассистент (каф.САПР)",
+            "degree": null,
+            "rank": null,
+            "email": "vyostrovskii@etu.ru",
+            "alienId": 2425,
+            "groupId": null,
+            "personalNumber": "00027340",
+            "isEmailNotif": true
+          }
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235641,
+        "lessonId": 5252820,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.В.04",
+        "url": null,
+        "lesson": {
+          "id": 5252820,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284849,
+            "type": "schedule",
+            "description": "\"Геометрическое моделирование\" (Лаб), группа 0301",
+            "updatedAt": "2022-12-09T09:47:20.764Z",
+            "auditoriumNumber": "1155",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235641,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5293236,
+              "startTime": 103,
+              "endTime": 1103,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "WED",
+              "week": "2"
+            },
+            "auditorium": {
+              "displayName": "1155",
+              "number": "1155",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 29552,
+            "title": "Геометрическое моделирование",
+            "englishTitle": null,
+            "shortTitle": "ГеомМод",
+            "subjectType": "Лаб",
+            "controlType": null,
+            "semester": 5,
+            "alienId": 170,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 24,
+              "title": "каф.САПР",
+              "longTitle": "Кафедра систем автоматизированного проектирования",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Матвеева И.В.",
+            "isTeacher": true,
+            "id": 500,
+            "surname": "Матвеева",
+            "name": "Ирина",
+            "midname": "Витальевна",
+            "phone": null,
+            "birthday": "1962-07-12",
+            "roles": [
+              "worker",
+              "teacher"
+            ],
+            "workDepartments": [
+              "Кафедра систем автоматизированного проектирования (доцент кандидат наук)",
+              "Центр \"Абитуриент\" (заместитель руководителя центра)"
+            ],
+            "position": "Доцент (каф.САПР)",
+            "degree": "Кандидат наук",
+            "rank": null,
+            "email": "ivmatveeva@etu.ru",
+            "alienId": 931,
+            "groupId": null,
+            "personalNumber": "90009579",
+            "isEmailNotif": true
+          },
+          "secondTeacher": {
+            "initials": "Островский В.Ю.",
+            "isTeacher": true,
+            "id": 524,
+            "surname": "Островский",
+            "name": "Валерий",
+            "midname": "Юрьевич",
+            "phone": null,
+            "birthday": "1993-06-29",
+            "roles": [
+              "teacher"
+            ],
+            "workDepartments": null,
+            "position": "Ассистент (каф.САПР)",
+            "degree": null,
+            "rank": null,
+            "email": "vyostrovskii@etu.ru",
+            "alienId": 2425,
+            "groupId": null,
+            "personalNumber": "00027340",
+            "isEmailNotif": true
+          }
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235648,
+        "lessonId": 5252827,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.В.06",
+        "url": null,
+        "lesson": {
+          "id": 5252827,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284856,
+            "type": "schedule",
+            "description": "\"Основы теории управления\" (Лек), группа 0301",
+            "updatedAt": "2022-12-09T09:47:20.863Z",
+            "auditoriumNumber": "2337",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235648,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5293243,
+              "startTime": 104,
+              "endTime": 1104,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "MON",
+              "week": "2"
+            },
+            "auditorium": {
+              "displayName": "2337",
+              "number": "2337",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 28945,
+            "title": "Основы теории управления",
+            "englishTitle": null,
+            "shortTitle": "ОснТУ",
+            "subjectType": "Лек",
+            "controlType": "ЗчО",
+            "semester": 5,
+            "alienId": 898,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 1,
+              "title": "каф.АПУ",
+              "longTitle": "Кафедра автоматики и процессов управления",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Душин С.Е.",
+            "isTeacher": true,
+            "id": 432,
+            "surname": "Душин",
+            "name": "Сергей",
+            "midname": "Евгеньевич",
+            "phone": null,
+            "birthday": "1952-02-01",
+            "roles": [
+              "teacher"
+            ],
+            "workDepartments": null,
+            "position": "Профессор (каф.АПУ)",
+            "degree": "Доктор наук",
+            "rank": "Доцент",
+            "email": "sedushin@etu.ru",
+            "alienId": 430,
+            "groupId": null,
+            "personalNumber": "90006619",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235649,
+        "lessonId": 5252828,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.В.06",
+        "url": null,
+        "lesson": {
+          "id": 5252828,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284857,
+            "type": "schedule",
+            "description": "\"Основы теории управления\" (Лек), группа 0301",
+            "updatedAt": "2022-12-09T09:47:20.876Z",
+            "auditoriumNumber": "2337",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235649,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5293244,
+              "startTime": 104,
+              "endTime": 1104,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "MON",
+              "week": "1"
+            },
+            "auditorium": {
+              "displayName": "2337",
+              "number": "2337",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 28945,
+            "title": "Основы теории управления",
+            "englishTitle": null,
+            "shortTitle": "ОснТУ",
+            "subjectType": "Лек",
+            "controlType": "ЗчО",
+            "semester": 5,
+            "alienId": 898,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 1,
+              "title": "каф.АПУ",
+              "longTitle": "Кафедра автоматики и процессов управления",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Душин С.Е.",
+            "isTeacher": true,
+            "id": 432,
+            "surname": "Душин",
+            "name": "Сергей",
+            "midname": "Евгеньевич",
+            "phone": null,
+            "birthday": "1952-02-01",
+            "roles": [
+              "teacher"
+            ],
+            "workDepartments": null,
+            "position": "Профессор (каф.АПУ)",
+            "degree": "Доктор наук",
+            "rank": "Доцент",
+            "email": "sedushin@etu.ru",
+            "alienId": 430,
+            "groupId": null,
+            "personalNumber": "90006619",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235661,
+        "lessonId": 5252840,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.В.06",
+        "url": null,
+        "lesson": {
+          "id": 5252840,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284869,
+            "type": "schedule",
+            "description": "\"Основы теории управления\" (Лаб), группа 0301",
+            "updatedAt": "2022-12-09T09:47:21.042Z",
+            "auditoriumNumber": "1205",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235661,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5293256,
+              "startTime": 103,
+              "endTime": 1103,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "FRI",
+              "week": "2"
+            },
+            "auditorium": {
+              "displayName": "1205",
+              "number": "1205",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 28947,
+            "title": "Основы теории управления",
+            "englishTitle": null,
+            "shortTitle": "ОснТУ",
+            "subjectType": "Лаб",
+            "controlType": null,
+            "semester": 5,
+            "alienId": 898,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 1,
+              "title": "каф.АПУ",
+              "longTitle": "Кафедра автоматики и процессов управления",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Брикова О.И.",
+            "isTeacher": true,
+            "id": 1313,
+            "surname": "Брикова",
+            "name": "Ольга",
+            "midname": "Игоревна",
+            "phone": "",
+            "birthday": "1995-10-26",
+            "roles": [
+              "student",
+              "teacher"
+            ],
+            "workDepartments": null,
+            "position": "Ассистент (каф.АПУ)",
+            "degree": null,
+            "rank": null,
+            "email": "kapulinaolga@gmail.com",
+            "alienId": 2587,
+            "groupId": null,
+            "personalNumber": "00031522",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235662,
+        "lessonId": 5252841,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.В.06",
+        "url": null,
+        "lesson": {
+          "id": 5252841,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284870,
+            "type": "schedule",
+            "description": "\"Основы теории управления\" (Пр), группа 0301",
+            "updatedAt": "2022-12-09T09:47:21.055Z",
+            "auditoriumNumber": "1205",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235662,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5293257,
+              "startTime": 103,
+              "endTime": 1103,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "FRI",
+              "week": "1"
+            },
+            "auditorium": {
+              "displayName": "1205",
+              "number": "1205",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 28946,
+            "title": "Основы теории управления",
+            "englishTitle": null,
+            "shortTitle": "ОснТУ",
+            "subjectType": "Пр",
+            "controlType": null,
+            "semester": 5,
+            "alienId": 898,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 1,
+              "title": "каф.АПУ",
+              "longTitle": "Кафедра автоматики и процессов управления",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Брикова О.И.",
+            "isTeacher": true,
+            "id": 1313,
+            "surname": "Брикова",
+            "name": "Ольга",
+            "midname": "Игоревна",
+            "phone": "",
+            "birthday": "1995-10-26",
+            "roles": [
+              "student",
+              "teacher"
+            ],
+            "workDepartments": null,
+            "position": "Ассистент (каф.АПУ)",
+            "degree": null,
+            "rank": null,
+            "email": "kapulinaolga@gmail.com",
+            "alienId": 2587,
+            "groupId": null,
+            "personalNumber": "00031522",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235665,
+        "lessonId": 5252844,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.О.21",
+        "url": null,
+        "lesson": {
+          "id": 5252844,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284873,
+            "type": "schedule",
+            "description": "\"Схемотехника\" (Лек), группа 0301",
+            "updatedAt": "2022-12-09T09:47:21.095Z",
+            "auditoriumNumber": "5427",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235665,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5293260,
+              "startTime": 103,
+              "endTime": 1103,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "MON",
+              "week": "1"
+            },
+            "auditorium": {
+              "displayName": "5427",
+              "number": "5427",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 28971,
+            "title": "Схемотехника",
+            "englishTitle": null,
+            "shortTitle": "Схемотехн.",
+            "subjectType": "Лек",
+            "controlType": "ЗчО",
+            "semester": 5,
+            "alienId": 1286,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 24,
+              "title": "каф.САПР",
+              "longTitle": "Кафедра систем автоматизированного проектирования",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Соколов Ю.М.",
+            "isTeacher": true,
+            "id": 569,
+            "surname": "Соколов",
+            "name": "Юрий",
+            "midname": "Михайлович",
+            "phone": "",
+            "birthday": "1945-06-11",
+            "roles": [
+              "worker",
+              "teacher"
+            ],
+            "workDepartments": [
+              "Кафедра систем автоматизированного проектирования (доцент кандидат наук)"
+            ],
+            "position": "Доцент (каф.САПР)",
+            "degree": "Кандидат наук",
+            "rank": "Доцент",
+            "email": "imsokolov@etu.ru",
+            "alienId": 937,
+            "groupId": null,
+            "personalNumber": "90001217",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235666,
+        "lessonId": 5252845,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.О.21",
+        "url": null,
+        "lesson": {
+          "id": 5252845,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284874,
+            "type": "schedule",
+            "description": "\"Схемотехника\" (Лек), группа 0301",
+            "updatedAt": "2022-12-09T09:47:21.108Z",
+            "auditoriumNumber": "5427",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235666,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5293261,
+              "startTime": 103,
+              "endTime": 1103,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "MON",
+              "week": "2"
+            },
+            "auditorium": {
+              "displayName": "5427",
+              "number": "5427",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 28971,
+            "title": "Схемотехника",
+            "englishTitle": null,
+            "shortTitle": "Схемотехн.",
+            "subjectType": "Лек",
+            "controlType": "ЗчО",
+            "semester": 5,
+            "alienId": 1286,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 24,
+              "title": "каф.САПР",
+              "longTitle": "Кафедра систем автоматизированного проектирования",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Соколов Ю.М.",
+            "isTeacher": true,
+            "id": 569,
+            "surname": "Соколов",
+            "name": "Юрий",
+            "midname": "Михайлович",
+            "phone": "",
+            "birthday": "1945-06-11",
+            "roles": [
+              "worker",
+              "teacher"
+            ],
+            "workDepartments": [
+              "Кафедра систем автоматизированного проектирования (доцент кандидат наук)"
+            ],
+            "position": "Доцент (каф.САПР)",
+            "degree": "Кандидат наук",
+            "rank": "Доцент",
+            "email": "imsokolov@etu.ru",
+            "alienId": 937,
+            "groupId": null,
+            "personalNumber": "90001217",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235679,
+        "lessonId": 5252858,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.О.21",
+        "url": null,
+        "lesson": {
+          "id": 5252858,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284887,
+            "type": "schedule",
+            "description": "\"Схемотехника\" (Лек), группа 0301",
+            "updatedAt": "2022-12-09T09:47:21.306Z",
+            "auditoriumNumber": "5427",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235679,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5293274,
+              "startTime": 102,
+              "endTime": 1102,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "MON",
+              "week": "2"
+            },
+            "auditorium": {
+              "displayName": "5427",
+              "number": "5427",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 28971,
+            "title": "Схемотехника",
+            "englishTitle": null,
+            "shortTitle": "Схемотехн.",
+            "subjectType": "Лек",
+            "controlType": "ЗчО",
+            "semester": 5,
+            "alienId": 1286,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 24,
+              "title": "каф.САПР",
+              "longTitle": "Кафедра систем автоматизированного проектирования",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Соколов Ю.М.",
+            "isTeacher": true,
+            "id": 569,
+            "surname": "Соколов",
+            "name": "Юрий",
+            "midname": "Михайлович",
+            "phone": "",
+            "birthday": "1945-06-11",
+            "roles": [
+              "worker",
+              "teacher"
+            ],
+            "workDepartments": [
+              "Кафедра систем автоматизированного проектирования (доцент кандидат наук)"
+            ],
+            "position": "Доцент (каф.САПР)",
+            "degree": "Кандидат наук",
+            "rank": "Доцент",
+            "email": "imsokolov@etu.ru",
+            "alienId": 937,
+            "groupId": null,
+            "personalNumber": "90001217",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235686,
+        "lessonId": 5252865,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.О.21",
+        "url": null,
+        "lesson": {
+          "id": 5252865,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284894,
+            "type": "schedule",
+            "description": "\"Схемотехника\" (Пр), группа 0301",
+            "updatedAt": "2022-12-09T09:47:21.421Z",
+            "auditoriumNumber": "1154",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235686,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5293281,
+              "startTime": 104,
+              "endTime": 1104,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "WED",
+              "week": "1"
+            },
+            "auditorium": {
+              "displayName": "1154",
+              "number": "1154",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 28329,
+            "title": "Схемотехника",
+            "englishTitle": null,
+            "shortTitle": "Схемотехн.",
+            "subjectType": "Пр",
+            "controlType": null,
+            "semester": 5,
+            "alienId": 1286,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 24,
+              "title": "каф.САПР",
+              "longTitle": "Кафедра систем автоматизированного проектирования",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Андреев В.С.",
+            "isTeacher": true,
+            "id": 372,
+            "surname": "Андреев",
+            "name": "Валерий",
+            "midname": "Сергеевич",
+            "phone": "",
+            "birthday": "1988-06-30",
+            "roles": [
+              "worker",
+              "teacher",
+              "departmentDispatcher"
+            ],
+            "workDepartments": [
+              "Кафедра систем автоматизированного проектирования (доцент кандидат наук)",
+              "Учебно-научный центр\"Центр технологий National Instruments\" (директор)",
+              "Молодежный Научно-Исследовательский Институт (старший научный сотрудник кандидат наук)"
+            ],
+            "position": "Доцент (каф.САПР)",
+            "degree": "Кандидат наук",
+            "rank": null,
+            "email": "vsandreev@etu.ru",
+            "alienId": 917,
+            "groupId": null,
+            "personalNumber": "00024556",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235687,
+        "lessonId": 5252866,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.О.21",
+        "url": null,
+        "lesson": {
+          "id": 5252866,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284895,
+            "type": "schedule",
+            "description": "\"Схемотехника\" (Лаб), группа 0301",
+            "updatedAt": "2022-12-09T09:47:21.433Z",
+            "auditoriumNumber": "1154",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235687,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5293282,
+              "startTime": 104,
+              "endTime": 1104,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "WED",
+              "week": "2"
+            },
+            "auditorium": {
+              "displayName": "1154",
+              "number": "1154",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 28330,
+            "title": "Схемотехника",
+            "englishTitle": null,
+            "shortTitle": "Схемотехн.",
+            "subjectType": "Лаб",
+            "controlType": null,
+            "semester": 5,
+            "alienId": 1286,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 24,
+              "title": "каф.САПР",
+              "longTitle": "Кафедра систем автоматизированного проектирования",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Андреев В.С.",
+            "isTeacher": true,
+            "id": 372,
+            "surname": "Андреев",
+            "name": "Валерий",
+            "midname": "Сергеевич",
+            "phone": "",
+            "birthday": "1988-06-30",
+            "roles": [
+              "worker",
+              "teacher",
+              "departmentDispatcher"
+            ],
+            "workDepartments": [
+              "Кафедра систем автоматизированного проектирования (доцент кандидат наук)",
+              "Учебно-научный центр\"Центр технологий National Instruments\" (директор)",
+              "Молодежный Научно-Исследовательский Институт (старший научный сотрудник кандидат наук)"
+            ],
+            "position": "Доцент (каф.САПР)",
+            "degree": "Кандидат наук",
+            "rank": null,
+            "email": "vsandreev@etu.ru",
+            "alienId": 917,
+            "groupId": null,
+            "personalNumber": "00024556",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235688,
+        "lessonId": 5252867,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.О.20",
+        "url": null,
+        "lesson": {
+          "id": 5252867,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284896,
+            "type": "schedule",
+            "description": "\"Базы данных\" (Пр), группа 0301",
+            "updatedAt": "2022-12-09T09:47:21.446Z",
+            "auditoriumNumber": "1146",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235688,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5293283,
+              "startTime": 105,
+              "endTime": 1105,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "WED",
+              "week": "1"
+            },
+            "auditorium": {
+              "displayName": "1146",
+              "number": "1146",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 29548,
+            "title": "Базы данных",
+            "englishTitle": null,
+            "shortTitle": "БД",
+            "subjectType": "Пр",
+            "controlType": null,
+            "semester": 5,
+            "alienId": 105,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 24,
+              "title": "каф.САПР",
+              "longTitle": "Кафедра систем автоматизированного проектирования",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Новакова Н.Е.",
+            "isTeacher": true,
+            "id": 520,
+            "surname": "Новакова",
+            "name": "Наталья",
+            "midname": "Евгеньевна",
+            "phone": null,
+            "birthday": "1958-04-30",
+            "roles": [
+              "worker",
+              "teacher"
+            ],
+            "workDepartments": [
+              "Кафедра информационная безопасность (доцент кандидат наук)",
+              "Кафедра систем автоматизированного проектирования (доцент кандидат наук)"
+            ],
+            "position": "Доцент (каф.ИБ), Доцент (каф.САПР)",
+            "degree": "Кандидат наук",
+            "rank": "Доцент",
+            "email": "nenovakova@etu.ru",
+            "alienId": 935,
+            "groupId": null,
+            "personalNumber": "90003821",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235690,
+        "lessonId": 5252869,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.О.20",
+        "url": null,
+        "lesson": {
+          "id": 5252869,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284898,
+            "type": "schedule",
+            "description": "\"Базы данных\" (Лаб), группа 0301",
+            "updatedAt": "2022-12-09T09:47:21.478Z",
+            "auditoriumNumber": "1146",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235690,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5293285,
+              "startTime": 105,
+              "endTime": 1105,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "WED",
+              "week": "2"
+            },
+            "auditorium": {
+              "displayName": "1146",
+              "number": "1146",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 29549,
+            "title": "Базы данных",
+            "englishTitle": null,
+            "shortTitle": "БД",
+            "subjectType": "Лаб",
+            "controlType": null,
+            "semester": 5,
+            "alienId": 105,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 24,
+              "title": "каф.САПР",
+              "longTitle": "Кафедра систем автоматизированного проектирования",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Новакова Н.Е.",
+            "isTeacher": true,
+            "id": 520,
+            "surname": "Новакова",
+            "name": "Наталья",
+            "midname": "Евгеньевна",
+            "phone": null,
+            "birthday": "1958-04-30",
+            "roles": [
+              "worker",
+              "teacher"
+            ],
+            "workDepartments": [
+              "Кафедра информационная безопасность (доцент кандидат наук)",
+              "Кафедра систем автоматизированного проектирования (доцент кандидат наук)"
+            ],
+            "position": "Доцент (каф.ИБ), Доцент (каф.САПР)",
+            "degree": "Кандидат наук",
+            "rank": "Доцент",
+            "email": "nenovakova@etu.ru",
+            "alienId": 935,
+            "groupId": null,
+            "personalNumber": "90003821",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235693,
+        "lessonId": 5252872,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.О.20",
+        "url": null,
+        "lesson": {
+          "id": 5252872,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284901,
+            "type": "schedule",
+            "description": "\"Базы данных\" (Лек), группа 0301",
+            "updatedAt": "2022-12-09T09:47:21.525Z",
+            "auditoriumNumber": "1229",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235693,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5293288,
+              "startTime": 103,
+              "endTime": 1103,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "THU",
+              "week": "1"
+            },
+            "auditorium": {
+              "displayName": "1229",
+              "number": "1229",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 28968,
+            "title": "Базы данных",
+            "englishTitle": null,
+            "shortTitle": "БД",
+            "subjectType": "Лек",
+            "controlType": "ЗчО",
+            "semester": 5,
+            "alienId": 105,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 24,
+              "title": "каф.САПР",
+              "longTitle": "Кафедра систем автоматизированного проектирования",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Новакова Н.Е.",
+            "isTeacher": true,
+            "id": 520,
+            "surname": "Новакова",
+            "name": "Наталья",
+            "midname": "Евгеньевна",
+            "phone": null,
+            "birthday": "1958-04-30",
+            "roles": [
+              "worker",
+              "teacher"
+            ],
+            "workDepartments": [
+              "Кафедра информационная безопасность (доцент кандидат наук)",
+              "Кафедра систем автоматизированного проектирования (доцент кандидат наук)"
+            ],
+            "position": "Доцент (каф.ИБ), Доцент (каф.САПР)",
+            "degree": "Кандидат наук",
+            "rank": "Доцент",
+            "email": "nenovakova@etu.ru",
+            "alienId": 935,
+            "groupId": null,
+            "personalNumber": "90003821",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235694,
+        "lessonId": 5252873,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.О.20",
+        "url": null,
+        "lesson": {
+          "id": 5252873,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284902,
+            "type": "schedule",
+            "description": "\"Базы данных\" (Лек), группа 0301",
+            "updatedAt": "2022-12-09T09:47:21.546Z",
+            "auditoriumNumber": "1229",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235694,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5293289,
+              "startTime": 103,
+              "endTime": 1103,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "THU",
+              "week": "2"
+            },
+            "auditorium": {
+              "displayName": "1229",
+              "number": "1229",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 28968,
+            "title": "Базы данных",
+            "englishTitle": null,
+            "shortTitle": "БД",
+            "subjectType": "Лек",
+            "controlType": "ЗчО",
+            "semester": 5,
+            "alienId": 105,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 24,
+              "title": "каф.САПР",
+              "longTitle": "Кафедра систем автоматизированного проектирования",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Новакова Н.Е.",
+            "isTeacher": true,
+            "id": 520,
+            "surname": "Новакова",
+            "name": "Наталья",
+            "midname": "Евгеньевна",
+            "phone": null,
+            "birthday": "1958-04-30",
+            "roles": [
+              "worker",
+              "teacher"
+            ],
+            "workDepartments": [
+              "Кафедра информационная безопасность (доцент кандидат наук)",
+              "Кафедра систем автоматизированного проектирования (доцент кандидат наук)"
+            ],
+            "position": "Доцент (каф.ИБ), Доцент (каф.САПР)",
+            "degree": "Кандидат наук",
+            "rank": "Доцент",
+            "email": "nenovakova@etu.ru",
+            "alienId": 935,
+            "groupId": null,
+            "personalNumber": "90003821",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5235702,
+        "lessonId": 5252881,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.В.07",
+        "url": null,
+        "lesson": {
+          "id": 5252881,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5284910,
+            "type": "schedule",
+            "description": "\"Метрология\" (Лаб), группа 0301",
+            "updatedAt": "2022-12-09T09:47:21.669Z",
+            "auditoriumNumber": "1118",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5235702,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5293297,
+              "startTime": 105,
+              "endTime": 1105,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "MON",
+              "week": "2"
+            },
+            "auditorium": {
+              "displayName": "1118",
+              "number": "1118",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 27933,
+            "title": "Метрология",
+            "englishTitle": null,
+            "shortTitle": "Метрология",
+            "subjectType": "Лаб",
+            "controlType": null,
+            "semester": 5,
+            "alienId": 616,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 10,
+              "title": "каф.ИИСТ",
+              "longTitle": "Кафедра информационно-измерительных систем и технологий",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Жданова Е.Н.",
+            "isTeacher": true,
+            "id": 222,
+            "surname": "Жданова",
+            "name": "Екатерина",
+            "midname": "Николаевна",
+            "phone": null,
+            "birthday": "1991-12-23",
+            "roles": [
+              "teacher",
+              "worker"
+            ],
+            "workDepartments": [
+              "ОДА (инженер 1 категории)",
+              "каф.ИИСТ (ассистент)"
+            ],
+            "position": "Ассистент (каф.ИИСТ), Доцент (каф.ИИСТ)",
+            "degree": null,
+            "rank": null,
+            "email": "enzhdanova@etu.ru",
+            "alienId": 2389,
+            "groupId": null,
+            "personalNumber": "00030496",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      },
+      {
+        "groupId": 2573,
+        "id": 5242046,
+        "lessonId": 5259225,
+        "comment": "",
+        "form": "standard",
+        "block": "Б1.В.05",
+        "url": null,
+        "lesson": {
+          "id": 5259225,
+          "newTeacherDateStart": null,
+          "newTeacherDateEnd": null,
+          "newAudDateStart": null,
+          "newAudDateEnd": null,
+          "isVacant": false,
+          "groupNumber": "0301",
+          "auditoriumReservation": {
+            "id": 5291254,
+            "type": "schedule",
+            "description": "\"Программирование на языке Kotlin\" (Пр), группа 0301",
+            "updatedAt": "2022-12-09T09:49:02.091Z",
+            "auditoriumNumber": "1156",
+            "examId": null,
+            "scheduleId": 364,
+            "scheduleObjectId": 5242046,
+            "examObjectId": null,
+            "reservationTime": {
+              "id": 5299641,
+              "startTime": 101,
+              "endTime": 1101,
+              "startDate": "2022-09-01",
+              "endDate": "2022-12-30",
+              "repeat": null,
+              "weekDay": "FRI",
+              "week": "2"
+            },
+            "auditorium": {
+              "displayName": "1156",
+              "number": "1156",
+              "alias": null
+            }
+          },
+          "newAuditoriumReservation": null,
+          "newTeacher": null,
+          "subject": {
+            "id": 29543,
+            "title": "Программирование на языке Kotlin",
+            "englishTitle": null,
+            "shortTitle": "Пр_на_Kotlin",
+            "subjectType": "Пр",
+            "controlType": null,
+            "semester": 5,
+            "alienId": 3904,
+            "studyYears": "2022-2023",
+            "department": {
+              "id": 24,
+              "title": "каф.САПР",
+              "longTitle": "Кафедра систем автоматизированного проектирования",
+              "type": "normal"
+            }
+          },
+          "teacher": {
+            "initials": "Кулагин М.В.",
+            "isTeacher": true,
+            "id": 2627,
+            "surname": "Кулагин",
+            "name": "Максим",
+            "midname": "Вадимович",
+            "phone": "",
+            "birthday": "1997-12-27",
+            "roles": [
+              "teacher"
+            ],
+            "workDepartments": null,
+            "position": "Ассистент (каф.САПР)",
+            "degree": null,
+            "rank": null,
+            "email": null,
+            "alienId": 2865,
+            "groupId": null,
+            "personalNumber": "00204246",
+            "isEmailNotif": true
+          },
+          "secondTeacher": null
+        }
+      }
+    ]
+  }
+]
