@@ -16,9 +16,6 @@ import java.net.URL
 import java.net.URLEncoder
 import java.util.*
 import java.util.Calendar.*
-
-
-
 @Service
 class TelegramLLSBot : TelegramLongPollingBot() {
 
@@ -88,14 +85,14 @@ class TelegramLLSBot : TelegramLongPollingBot() {
         }
     }
 
+
+
     private fun dayPrepare(): String {
         prepareCheck = true
         return "Введите день недели. Пример: 'понедельник' или 'пн'.\n" +
                 "Если хотите узнать расписание в этот день с учетом четности недели, введите её после дня недели. Пример: пн 2.\n" +
                 "В воскресенье нет пар!"
     }
-
-
     private fun setWeekNum() {
         if ((calendarInstance.get(WEEK_OF_YEAR) % 2 == 0 && ((calendarInstance.get(DAY_OF_YEAR) % 7) in 3..6)) ||
             (calendarInstance.get(WEEK_OF_YEAR) % 2 == 1 && ((calendarInstance.get(DAY_OF_YEAR) % 7) in 0..2))
@@ -108,7 +105,6 @@ class TelegramLLSBot : TelegramLongPollingBot() {
             weekNum = 2
         }
     }
-
     private fun getDay(tomorrowIndicator: Boolean): String {
         if (tomorrowIndicator){
             when (calendarInstance.get(DAY_OF_WEEK)) {
@@ -133,20 +129,12 @@ class TelegramLLSBot : TelegramLongPollingBot() {
         }
         return "SUN"
     }
-
     private fun getTime(): String {
         val hour = calendarInstance.get(HOUR_OF_DAY)
         return "$hour"
     }
 
-    private fun parseSchedule(userGroup: String): List<ScheduleObject> {
-        val userGroupID = groupId[fullGroupNumbers.indexOf(userGroup)]
-        val connectToSchedule =
-            URL("https://digital.etu.ru/api/schedule/objects/publicated?groups=${URLEncoder.encode(userGroupID.toString(), "UTF-8")}&withSubjectCode=true&withURL=true").openConnection() as HttpURLConnection
-        val notParsedSchedule = connectToSchedule.inputStream.bufferedReader().readText()
-        val groupFullSchedule = Gson().fromJson(notParsedSchedule, Array<GroupSchedule>::class.java).toList()
-        return groupFullSchedule[0].scheduleObjects
-    }
+
 
     private fun weekSchedule(userGroup: String): String {
         var schedule = ""
@@ -167,7 +155,6 @@ class TelegramLLSBot : TelegramLongPollingBot() {
         }
         return schedule
     }
-
     private fun tomorrowSchedule(userGroup: String): String {
         var schedule = ""
         val tomorrowSchedule = parseSchedule(userGroup)
@@ -191,7 +178,6 @@ class TelegramLLSBot : TelegramLongPollingBot() {
         }
         return schedule
     }
-
     private fun dayOfWeek(userGroup: String, userDay: String, userWeek: Int): String {
         var schedule = ""
         val userWeekDay = when (userDay) {
@@ -226,7 +212,6 @@ class TelegramLLSBot : TelegramLongPollingBot() {
         }
         return schedule
     }
-
     private fun nearLesson(userGroup: String): String {
         var nearWeek = weekNum
         val parsedSchedule = parseSchedule(userGroup)
@@ -282,6 +267,8 @@ class TelegramLLSBot : TelegramLongPollingBot() {
         return schedule
     }
 
+
+
     private fun sendNotification(chatId: Long, responseText: String) {
         var responseMessage = SendMessage(chatId.toString(), responseText)
         responseMessage.enableMarkdown(true)
@@ -320,7 +307,26 @@ class TelegramLLSBot : TelegramLongPollingBot() {
         }
         execute(responseMessage)
     }
+    private fun getReplyMarkup(allButtons: List<List<String>>): ReplyKeyboardMarkup {
+        val markup = ReplyKeyboardMarkup()
+        markup.keyboard = allButtons.map { rowButtons ->
+            val row = KeyboardRow()
+            rowButtons.forEach { rowButton -> row.add(rowButton) }
+            row
+        }
+        return markup
+    }
 
+
+
+    private fun parseSchedule(userGroup: String): List<ScheduleObject> {
+        val userGroupID = groupId[fullGroupNumbers.indexOf(userGroup)]
+        val connectToSchedule =
+            URL("https://digital.etu.ru/api/schedule/objects/publicated?groups=${URLEncoder.encode(userGroupID.toString(), "UTF-8")}&withSubjectCode=true&withURL=true").openConnection() as HttpURLConnection
+        val notParsedSchedule = connectToSchedule.inputStream.bufferedReader().readText()
+        val groupFullSchedule = Gson().fromJson(notParsedSchedule, Array<GroupSchedule>::class.java).toList()
+        return groupFullSchedule[0].scheduleObjects
+    }
     private fun connectToGroupList() {
         val connectToGroup =
             URL("https://digital.etu.ru/api/general/dicts/groups?scheduleId=publicated&withFaculty=true&withSemesterSeasons=true&withFlows=true").openConnection() as HttpURLConnection
@@ -334,15 +340,7 @@ class TelegramLLSBot : TelegramLongPollingBot() {
         groupsFilled = true
     }
 
-    private fun getReplyMarkup(allButtons: List<List<String>>): ReplyKeyboardMarkup {
-        val markup = ReplyKeyboardMarkup()
-        markup.keyboard = allButtons.map { rowButtons ->
-            val row = KeyboardRow()
-            rowButtons.forEach { rowButton -> row.add(rowButton) }
-            row
-        }
-        return markup
-    }
+
     private fun codeToStringDay(code: Int): String {
         val day = when (code) {
             1 -> "MON"
@@ -355,7 +353,6 @@ class TelegramLLSBot : TelegramLongPollingBot() {
         }
         return day
     }
-
     private fun stringToCodeDay(code: String): Int {
         val day = when (code) {
             "MON" -> 1
@@ -368,7 +365,6 @@ class TelegramLLSBot : TelegramLongPollingBot() {
         }
         return day
     }
-
     private fun codeToStringTime(code: Long): String {
         val time = when (code) {
             100L -> "8:00"
