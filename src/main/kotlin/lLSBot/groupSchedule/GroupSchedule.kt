@@ -11,7 +11,6 @@ private fun <T> Klaxon.convert(k: kotlin.reflect.KClass<*>, fromJson: (JsonValue
 
 private val klaxon = Klaxon()
     .convert(Form::class,                      { Form.fromValue(it.string!!) },                      { "\"${it.value}\"" })
-    .convert(WeekDay::class,                   { WeekDay.fromValue(it.string!!) },                   { "\"${it.value}\"" })
     .convert(AuditoriumReservationType::class, { AuditoriumReservationType.fromValue(it.string!!) }, { "\"${it.value}\"" })
     .convert(Degree::class,                    { Degree.fromValue(it.string!!) },                    { "\"${it.value}\"" })
     .convert(Phone::class,                     { Phone.fromValue(it.string!!) },                     { "\"${it.value}\"" })
@@ -143,32 +142,9 @@ data class ReservationTime (
     val startDate: String,
     val endDate: String,
     val repeat: Any? = null,
-    val weekDay: WeekDay,
+    val weekDay: String,
     val week: String
 )
-
-enum class WeekDay(val value: String) {
-    Fri("FRI"),
-    Mon("MON"),
-    Thu("THU"),
-    Tue("TUE"),
-    Wed("WED"),
-    Sat("SAT"),
-    Sun("SUN");
-
-    companion object {
-        public fun fromValue(value: String): WeekDay = when (value) {
-            "FRI" -> Fri
-            "MON" -> Mon
-            "THU" -> Thu
-            "TUE" -> Tue
-            "WED" -> Wed
-            "SAT" -> Sat
-            "SUN" -> Sun
-            else  -> throw IllegalArgumentException()
-        }
-    }
-}
 
 enum class AuditoriumReservationType(val value: String) {
     Schedule("schedule");
