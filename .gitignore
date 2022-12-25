@@ -1,4 +1,9 @@
 HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
 
 ### STS ###
 .apt_generated
@@ -30,9 +35,3 @@ out/
 
 ### VS Code ###
 .vscode/
-
-# Project exclude paths
-/.gradle/
-/build/
-/build/classes/kotlin/main/
-/build/classes/kotlin/test/
