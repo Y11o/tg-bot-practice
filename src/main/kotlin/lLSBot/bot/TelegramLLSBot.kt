@@ -272,7 +272,7 @@ class TelegramLLSBot : TelegramLongPollingBot() {
             }
         }
         if (schedule == ""){
-            val seObject = thisDaySchedule.sortedWith(compareBy{ it.lesson.auditoriumReservation.reservationTime.startTime })[0]
+            val seObject = parsedSchedule.filter { it.lesson.auditoriumReservation.reservationTime.week.toInt() != nearWeek }.sortedWith(compareBy{ it.lesson.auditoriumReservation.reservationTime.startTime })[0]
             schedule = "День недели: ${seObject.lesson.auditoriumReservation.reservationTime.weekDay} \n" +
                     "Название предмета: ${seObject.lesson.subject.title} (${seObject.lesson.subject.subjectType}).\n" +
                     "В ${codeToStringTime(seObject.lesson.auditoriumReservation.reservationTime.startTime)} \n" +
@@ -288,7 +288,7 @@ class TelegramLLSBot : TelegramLongPollingBot() {
         var textChanger = true
         try {
             if (responseText.toInt() in 1000..9999 || (responseText[0] == '0' && responseText.length == 4)) {
-                if (mapOfUsersGroups[chatId.toString()] != responseText && !groupsFilled){
+                if (mapOfUsersGroups[chatId.toString()] != responseText && !groupsFilled){ //if fullGroupNumbers is Empty
                     connectToGroupList()
                 }
                 if (responseText in fullGroupNumbers) {
