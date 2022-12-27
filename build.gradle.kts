@@ -24,6 +24,9 @@ dependencies {
 	implementation("com.beust:klaxon:5.6")
 	implementation("com.google.code.gson:gson:2.10")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	implementation(kotlin("stdlib"))
+	implementation("mysql:mysql-connector-java:8.0.15")
+	testImplementation("junit", "junit", "4.12")
 }
 
 tasks.withType<KotlinCompile> {

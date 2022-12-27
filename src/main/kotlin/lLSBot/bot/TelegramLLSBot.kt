@@ -6,6 +6,7 @@ import lLSBot.groupSchedule.ScheduleObject
 import lLSBot.groupsID.GroupID
 import org.jvnet.hk2.annotations.Service
 import org.springframework.beans.factory.annotation.Value
+
 import org.telegram.telegrambots.bots.TelegramLongPollingBot
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage
 import org.telegram.telegrambots.meta.api.objects.Update
@@ -14,13 +15,16 @@ import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.Keyboard
 import java.net.HttpURLConnection
 import java.net.URL
 import java.net.URLEncoder
+import java.time.LocalDateTime
 import java.util.*
 import java.util.Calendar.*
 
 
 
 @Service
-class TelegramLLSBot : TelegramLongPollingBot() {
+
+
+open class TelegramLLSBot : TelegramLongPollingBot() {
 
     @Value("\${telegram.token}")
     private val token: String = "5895349514:AAHh30bJUHvIM4Y11FtWIsjSjdrm7A60soY"
@@ -34,16 +38,18 @@ class TelegramLLSBot : TelegramLongPollingBot() {
 
     private val groupChecker = "0301"
     private var prepareCheck = false
-    private val mapOfUsersGroups: MutableMap<String, String> = mutableMapOf()
+    protected open val mapOfUsersGroups: MutableMap<String, String> = mutableMapOf()
     private val fullGroupNumbers: MutableList<String> = mutableListOf()
     private val groupId: MutableList<Long> = mutableListOf()
     private val calendarInstance: Calendar = getInstance()
     private var weekNum = 0
     private var groupsFilled = false
+    protected open var chatId: Long = 0
+
     override fun onUpdateReceived(update: Update?) {
         if (update!!.hasMessage()) {
             val message = update.message
-            val chatId = message.chatId
+            chatId = message.chatId
             val defaultDays = listOf("понедельник", "пн", "вторник", "вт", "среда", "ср", "четверг", "чт", "пятница", "пт", "суббота", "сб")
             val days = listOf("понедельник 1", "пн 1", "вторник 1", "вт 1", "среда 1", "ср 1", "четверг 1", "чт 1", "пятница 1", "пт 1", "суббота 1", "сб 1",
                               "понедельник 2", "пн 2", "вторник 2", "вт 2", "среда 2", "ср 2", "четверг 2", "чт 2", "пятница 2", "пт 2", "суббота 2", "сб 2",
@@ -56,7 +62,7 @@ class TelegramLLSBot : TelegramLongPollingBot() {
                         message.text.lowercase().replaceFirst(".$".toRegex(), "").replaceFirst(".$".toRegex(), ""),
                         message.text.lowercase().last().digitToInt())
                 prepareCheck = false
-                sendNotification(chatId, responseText)
+                sendNotification(chatId, responseText, update)
             }else{
                 val responseText = if (message.hasText()) {
                     val messageText = message.text
@@ -83,7 +89,7 @@ class TelegramLLSBot : TelegramLongPollingBot() {
                 } else {
                     "Я понимаю только текст"
                 }
-                sendNotification(chatId, responseText)
+                sendNotification(chatId, responseText, update)
             }
         }
     }
@@ -282,7 +288,7 @@ class TelegramLLSBot : TelegramLongPollingBot() {
         return schedule
     }
 
-    private fun sendNotification(chatId: Long, responseText: String) {
+    private fun sendNotification(chatId: Long, responseText: String, update: Update?) {
         var responseMessage = SendMessage(chatId.toString(), responseText)
         responseMessage.enableMarkdown(true)
         var textChanger = true
@@ -294,6 +300,26 @@ class TelegramLLSBot : TelegramLongPollingBot() {
                 if (responseText in fullGroupNumbers) {
                     mapOfUsersGroups[chatId.toString()] = responseText
                     val newResponseText = "Ваш номер группы: $responseText"
+
+                    //for DB
+                    if (update!= null){
+                        val userIdBuf = update.message.from.id.toString()
+                        val groupNumberBuf = responseText
+                        val name: String
+                        val connectionDateTime = LocalDateTime.now().toString()
+
+                        if (update.message.from.lastName != null && update.message.from.firstName != null)
+                            name = update.message.from.lastName + update.message.from.firstName
+                        else {
+                            if (update.message.from.userName != null)
+                                name = update.message.from.userName
+                            else name = "UNKNOWN"
+                        }
+
+                        val DBBot_obj: DBBot = DBBot(userIdBuf, groupNumberBuf, name, connectionDateTime)
+                        DBBot_obj.ConnectToDB()
+                    }
+
                     textChanger = false
                     responseMessage = SendMessage(chatId.toString(), newResponseText)
                     responseMessage.replyMarkup = getReplyMarkup(

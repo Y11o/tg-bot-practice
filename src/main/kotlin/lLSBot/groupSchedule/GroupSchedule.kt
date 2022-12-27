@@ -10,7 +10,8 @@ private fun <T> Klaxon.convert(k: kotlin.reflect.KClass<*>, fromJson: (JsonValue
     })
 
 private val klaxon = Klaxon()
-    .convert(Form::class,                      { Form.fromValue(it.string!!) },                      { "\"${it.value}\"" })
+    .convert(Form::class,
+            { Form.fromValue(it.string!!) },                      { "\"${it.value}\"" })
     .convert(AuditoriumReservationType::class, { AuditoriumReservationType.fromValue(it.string!!) }, { "\"${it.value}\"" })
     .convert(Degree::class,                    { Degree.fromValue(it.string!!) },                    { "\"${it.value}\"" })
     .convert(Phone::class,                     { Phone.fromValue(it.string!!) },                     { "\"${it.value}\"" })
